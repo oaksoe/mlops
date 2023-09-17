@@ -1,4 +1,8 @@
 [core]
-    remote = myremote
-['remote "myremote"']
-    url = ../../temp/dvcstore
+    remote = data
+['remote "experiment-state"']
+    url = s3://c2p-ml-ops-test/experiment-state
+['remote "model"']
+    url = s3://c2p-ml-ops-test/model
+['remote "data"']
+    url = s3://c2p-ml-ops-test/data

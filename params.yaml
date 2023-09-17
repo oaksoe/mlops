@@ -1,0 +1,18 @@
+experiment-name: "c2p-blur-detection-experiment-3-2"
+
+prepare:
+  split: 0.70
+  seed: 42
+
+train:
+  lr: 0.0001
+  momentum: 0.09
+  model_name: alexnet
+  num_classes: 2
+  batch_size: 64
+  num_epochs: 2
+  optimizer: Adam
+  seed: 42
+
+best_model:
+  run_id: 2d7327814b034dbcb0bf816312fede0f
